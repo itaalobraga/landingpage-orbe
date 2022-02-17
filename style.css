@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Varela Round", Roboto;
+}
+.bg {
+    background-image: linear-gradient(130deg, #0700dd 0%, #00f2ff 89%);
+}
+body {
+    background-color: #f9fbff;
+}
+header {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+header img {
+    float: left;
+}
+header h3.blog {
+    text-align: right;
+    font-size: 1.8rem;
+    color: white;
+}
+section.container {
+    overflow: hidden;
+    margin-top: 200px;
+    padding: 20px;
+}
+.texto {
+    max-width: 600px;
+    float: left;
+}
+.texto h3{
+    color: #FFFFFF;
+    font-family: "Varela Round", Roboto;
+    font-size: 4rem;
+}
+.texto p {
+    color: #ffffff;
+    font-family: "Montserrat", Roboto;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.4rem;
+    padding: 10px 0 10px 0;
+}
+.texto input {
+    margin: 20px;
+    background-color: #00DAFC;
+    padding: 12px 45px;
+    border: none;
+    font-size: 1.0rem;
+    color: white;
+    border-radius: 30px 30px 30px 30px;
+    transition: 1.2s;
+}
+.texto input:hover {
+    background-color: #4632da;
+    cursor: pointer;
+}
+section.container img.imgheader {
+    float: right;
+    border-radius: 300px 100px 100px 100px;
+}
+
+/* MAIN */
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+section.container img.imgmain {
+    border-radius: 100px 100px 300px 100px;
+}
+.textomain {
+    max-width: 600px;
+    float: right;
+    margin-top: 120px;
+}
+.textomain h3 {
+    color: #3D4459;
+    font-family: "Varela Round", Roboto;
+    font-size: 3rem;
+}
+.textomain p {
+    color: #3d4459;
+    font-family: "Montserrat", Roboto;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.4rem;
+}
+section.cards h3:first-child{
+    text-align: left;
+    color: #3d4459;
+    font-family: "Varela Round", Roboto;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+.cards {
+    text-align: center;
+}
+.card {
+    text-align: left;
+    float: left;
+    border-radius: 20px 20px 20px 50px;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    padding: 40px;
+    margin: 20px;
+}
+.card img {
+    max-width: 120px;
+}
+div.card h3 {
+    padding: 5px 0 5px 0;
+    color: #3D4459;
+    font-family: "Varela Round", Roboto;
+    font-size: 1.4rem;
+}
+div.card p {
+    color: #3D4459;;
+    font-family: "Montserrat", Roboto;
+    font-size: 1rem;
+    padding: 10px 0 10px 0;
+}
+
+/* FOOTER */
+footer {
+    background-image: linear-gradient(130deg, #0700dd 0%, #00f2ff 89%);
+}
+.formcontainer {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.formcontainer h3 {
+    color: #ffffff;
+    font-family: "Varela Round", Roboto;
+    font-size: 45px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin: 20px 0px;
+}
+.formcontainer form {
+    width:100%;
+}
+.containerform {
+    display: inline-block;
+    width:550px;
+    margin-top: 90px;
+}
+.formcontainer input {
+    text-indent: 1.2rem;
+    width: 100%;
+    border: none;
+    padding: 10px 0px 10px 0px;
+    margin: 10px 0px;
+    border-radius: 20px;
+}
+.formcontainer input#msg {
+    padding-bottom: 60px;
+}
+.formcontainer input:last-child {
+    background-color: #00DAFC;
+    margin: 15px 0 15px 0;
+}
+.formspan {
+    margin: 10px 0 5px 0;
+    color: #CBD8FF;
+}
+.formcontainer img{
+    float: right;
+    border-radius: 300px 100px 100px 100px;
+}
+@media screen and (max-width: 700px) {
+    .card {
+        float: none;
+        padding: 0;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    img.logo {
+        width: fit-content;
+    }
+    img{
+        width: 100%;
+    }
+    .texto h3{
+        font-size: 3.2rem;
+    }
+    .containerform {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 444px) {
+    .texto h3{
+    font-size: 2.1rem;
+    }
+}
